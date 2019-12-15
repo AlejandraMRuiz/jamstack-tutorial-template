@@ -1,0 +1,26 @@
+$color-gray: #4B4B4B;
+
+.linkList {
+    list-style: none;
+    padding: 0;
+    color: $color-gray;
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    a {
+        display: inline-block;
+        margin-right: 30px;
+        margin-left: 30px;
+        text-decoration: none;
+
+        &:hover {
+            text-shadow: 0 0.015em #101010,0 -0.015em #101010,0.01em 0 #101010,-0.01em 0 #101010;
+        }
+
+        &:visited {
+            color: $color-gray;
+        }
+    }
+}
