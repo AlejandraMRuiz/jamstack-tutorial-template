@@ -15,7 +15,9 @@ const IndividualBlogpost = ({data}) => {
 
     return (
         <div className="blogpost-container">
-            <div className="blogpost-image"></div>
+            <div className="blogpost-image">
+                <img src={ data.imgHeader } alt="blogpost-img" className="blogpost-image" />
+            </div>  
             <div className="blogpost-title">
                 <p>{ data.title }</p>
             </div>

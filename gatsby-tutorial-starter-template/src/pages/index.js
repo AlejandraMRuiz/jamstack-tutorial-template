@@ -6,6 +6,10 @@ import IndividualBlogpost from "../components/individualBlogpost"
 
 import '../styles/index.scss'
 
+import productivity from '../images/productivity.jpg'
+import dailyCarry from '../images/dailycarry.jpg'
+import jamstack from '../images/jamstack.jpg'
+
 const links = ['All', 'Tutorials', 'Lifestyle', 'Personal', 'Resources'];
 const blogpostInformation = 
   [
@@ -18,7 +22,8 @@ const blogpostInformation =
       ],
       title: 'JAMSTACK intro',
       summary: 'Create a blazing fast static blog website with JAMstack using Gatsby, Contentful, and Netlify.',
-      date: 'January 1st, 2020'
+      date: 'January 1st, 2020',
+      imgHeader: jamstack
     },
     {
       tagList: [
@@ -33,7 +38,8 @@ const blogpostInformation =
       ],
       title: 'What\'s In My Bag?',
       summary: 'Sharing my daily necessities as a Software Developer that I carry in my ISM backpack everyday.',
-      date: 'February 3rd, 2020'
+      date: 'February 3rd, 2020',
+      imgHeader: dailyCarry
     },
     {
       tagList: [{
@@ -42,7 +48,8 @@ const blogpostInformation =
       }],
       title: 'Improve Your Workflow',
       summary: 'Drastically improve your workflow and increase your productivity with these VSCode extensions.',
-      date: 'March 4th, 2020'
+      date: 'March 4th, 2020',
+      imgHeader: productivity
     },
   ];
 
