@@ -1,26 +1,27 @@
-$color-gray: #4B4B4B;
+$color-gray: #4b4b4b;
 
 .linkList {
-    list-style: none;
-    padding: 0;
-    color: $color-gray;
+  list-style: none;
+  padding: 0;
+  color: $color-gray;
 
-    li {
-        margin-bottom: 10px;
+  li {
+    margin-bottom: 10px;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+
+    &:hover {
+      text-shadow: 0 0.015em #101010, 0 -0.015em #101010, 0.01em 0 #101010,
+        -0.01em 0 #101010;
     }
 
-    a {
-        display: inline-block;
-        margin-right: 30px;
-        margin-left: 30px;
-        text-decoration: none;
-
-        &:hover {
-            text-shadow: 0 0.015em #101010,0 -0.015em #101010,0.01em 0 #101010,-0.01em 0 #101010;
-        }
-
-        &:visited {
-            color: $color-gray;
-        }
+    &:visited {
+      color: $color-gray;
     }
+  }
 }

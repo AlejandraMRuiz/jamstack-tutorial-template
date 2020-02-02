@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
-$color-pink: #D92F7E;
-$color-gray: #4B4B4B;
-$color-background: #F5F5F5;
+$color-pink: #d92f7e;
+$color-gray: #4b4b4b;
+$color-background: #f5f5f5;
 
-*{
-    font-family: 'Nunito';
+* {
+  font-family: 'Nunito';
 }
 
 body {
-    background-color: $color-background;
+  background-color: $color-background;
 }
 
 .blogposts-main {
-    margin: 0 auto;
-    text-align: center;
+  margin: 0 auto;
+  text-align: center;
 
-    h1 {
-        font-size: 46px;
-        font-weight: 600;
-        margin-top: 10%;
-        margin-bottom: 0px;
-    }
+  h1 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-bottom: 0px;
+  }
 
-    .divider {
-        margin: 40px;
-        display: inline-block;
-        background-color: $color-pink;
-        width: 120px;
-        height: 3px;
-    }
+  .divider {
+    margin: 40px;
+    display: inline-block;
+    background-color: $color-pink;
+    width: 120px;
+    height: 3px;
+  }
 
-    .linkList {
-        width: 40%;
-        margin: auto;
-    }
+  .linkList {
+    width: 40%;
+    margin: auto;
+  }
 }
 
 .blogposts-content {
-    margin: 50px;
+  margin: 50px;
 }

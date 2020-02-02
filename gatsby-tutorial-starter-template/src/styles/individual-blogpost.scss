@@ -1,70 +1,69 @@
-$color-pink: #D92F7E;
-$color-gray: #4B4B4B;
+$color-pink: #d92f7e;
+$color-gray: #4b4b4b;
 
 .blogpost-container {
-    display: inline-block;
-    width: 28%;
-    height: 400px;
-    margin-top: 0px!important;
-    margin: 25px;
-    border-radius: 15px;
-    -webkit-box-shadow: 4px 4px 19px -10px rgba(143,143,143,0.7);
-    -moz-box-shadow: 4px 4px 19px -10px rgba(143,143,143,0.7);
-    box-shadow: 4px 4px 19px -10px rgba(143,143,143,0.7);
-    color: $color-gray;
-    padding-bottom: 20px;
+  display: inline-block;
+  width: 28%;
+  height: 400px;
+  margin-top: 0px !important;
+  margin: 25px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 4px 19px -10px rgba(143, 143, 143, 0.7);
+  -moz-box-shadow: 4px 4px 19px -10px rgba(143, 143, 143, 0.7);
+  box-shadow: 4px 4px 19px -10px rgba(143, 143, 143, 0.7);
+  color: $color-gray;
+  padding-bottom: 20px;
 }
 
 .blogpost-container > div {
-    text-align: left;
+  text-align: left;
 }
 
 .blogpost-container > div > p {
-    padding-left: 25px;
-    padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .blogpost-image {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 200px;
-    background-color: $color-pink;
-    width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 200px;
+  background-color: $color-pink;
+  width: 100%;
 }
 
 .blogpost-title {
-    font-size: 20px;
-    font-weight: bold;
-    height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  height: 35px;
 }
 
 .blogpost-summary {
-    font-size: 14px;
-    height: 70px;
-    overflow: hidden;
+  font-size: 14px;
+  height: 70px;
+  overflow: hidden;
 }
 
 .tag-list {
-    font-size: 14px;
-    margin-left: 25px;
-    margin-right: 25px;
-    list-style: none;
-    padding: 0;
-    text-align: left;
-    color: $color-pink;
-    font-weight: bold;
+  font-size: 14px;
+  margin-left: 25px;
+  margin-right: 25px;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  color: $color-pink;
+  font-weight: bold;
 
-    a {
-        display: inline-block;
-        margin-right: 20px;
-        color: $color-pink;
-        text-decoration: none;
-        cursor: pointer;
-    }
+  a {
+    display: inline-block;
+    margin-right: 20px;
+    color: $color-pink;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 .blogpost-date {
-    font-size: 12px;
-    height: 20px;
+  font-size: 12px;
+  height: 20px;
 }
-
