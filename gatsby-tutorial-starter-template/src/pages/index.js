@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Links from '../components/links'
+import Tags from '../components/tags'
 import IndividualBlogpost from '../components/individualBlogpost'
 
 import '../styles/index.scss'
@@ -10,7 +10,7 @@ import productivity from '../images/productivity.jpg'
 import dailyCarry from '../images/dailycarry.jpg'
 import jamstack from '../images/jamstack.jpg'
 
-const links = ['All', 'Tutorials', 'Lifestyle', 'Personal', 'Resources']
+const tags = ['All', 'Tutorials', 'Lifestyle', 'Personal', 'Resources']
 const blogpostInformation = [
   {
     tagList: [
@@ -63,7 +63,7 @@ const IndexPage = () => (
     <div className='blogposts-main'>
       <h1 className='header'>Blogposts</h1>
       <div className='divider'></div>
-      <Links links={links} className='linkList' />
+      <Tags tags={tags} className='tagList' />
       <div className='blogposts-content'>
         {blogpostInformation.map((singleBlogpostInfo) => (
           <IndividualBlogpost data={singleBlogpostInfo} />

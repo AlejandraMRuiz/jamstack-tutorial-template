@@ -3,7 +3,7 @@ import React from 'react'
 import '../styles/individual-blogpost.scss'
 
 const IndividualBlogpost = ({ data }) => {
-  const tags = data.tagListdd
+  const tags = data.tagList
 
   const tagList = tags.map((tag) => (
     <a href={tag.url}>
